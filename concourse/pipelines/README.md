@@ -100,7 +100,7 @@ fly -t prod \
     -l ~/workspace/gpdb/concourse/vars/common_prod.yml \
     -l ~/workspace/gpdb/concourse/vars/without_asserts_common_prod.yml \
     -v gpdb-git-remote=https://github.com/greenplum-db/gpdb.git \
-    -v gpdb-git-branch=master \
+    -v gpdb-git-branch=main \
     -v pipeline-name=gpdb_master_without_asserts
 ```
 

@@ -84,7 +84,7 @@ Starting a New Development Cycle
 * Typically, we do pgindent and perltidy runs just before branching
 
 * Create a branch in git for maintenance of the previous release
-	o on master branch, do:
+	o on main branch, do:
 		git pull           # be sure you have the latest "master"
 		git branch "new-branch-name"
 		git push -u origin  "new-branch-name"

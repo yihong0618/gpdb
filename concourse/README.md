@@ -27,7 +27,7 @@ The Concourse directory should contain this README and three sub-directories onl
 There should be just a handful of pipelines in this directory:
 
 * `gpdb_master-generated.yml` the pipeline that compiles, tests, and
-  produces installers from the master branch of gpdb. This is a
+  produces installers from the main branch of gpdb. This is a
   generated and should not be edited directly.  The template
   [pipelines/templates/gpdb-tpl.yml](pipelines/templates/gpdb-tpl.yml)
   should be edited and the utility
