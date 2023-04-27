@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Should delete this?
 set -e
 
 echo "set PYTHONHOME if first argument is 'yes'"
