@@ -67,7 +67,7 @@ function configure() {
 	# The full set of configure options which were used for building the
 	# tree must be used here as well since the toplevel Makefile depends
 	# on these options for deciding what to test. Since we don't ship
-	./configure --prefix=/usr/local/greenplum-db-devel --with-perl --with-python --with-libxml --with-uuid=e2fs --enable-mapreduce --enable-orafce --enable-tap-tests --disable-orca --with-openssl ${CONFIGURE_FLAGS}
+	PYTHONHOME=/usr/local/greenplum-db-devel/ext/python ./configure --prefix=/usr/local/greenplum-db-devel --with-perl --with-python --with-libxml --with-uuid=e2fs --enable-mapreduce --enable-orafce --enable-tap-tests --disable-orca --with-openssl ${CONFIGURE_FLAGS}
 
 	popd
 }
