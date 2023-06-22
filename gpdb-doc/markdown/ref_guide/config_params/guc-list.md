@@ -1680,15 +1680,7 @@ Specifies the interval at which the sweeper process evaluates current CPU usage.
 |-----------|-------|-------------------|
 |500 - 15000 ms|1000|local<br/>system<br/>restart|
 
-## gp\_role 
-
-The role of this server process " set to *dispatch* for the master and *execute* for a segment.
-
-|Value Range|Default|Set Classifications|
-|-----------|-------|-------------------|
-|dispatch<br/>execute<br/>utility| |read only|
-
-## gp\_safefswritesize 
+## <a id="gp_safefswritesize"></a>gp\_safefswritesize 
 
 Specifies a minimum size for safe write operations to append-optimized tables in a non-mature file system. When a number of bytes greater than zero is specified, the append-optimized writer adds padding data up to that number in order to prevent data corruption due to file system errors. Each non-mature file system has a known safe write size that must be specified here when using Greenplum Database with that type of file system. This is commonly set to a multiple of the extent size of the file system; for example, Linux ext3 is 4096 bytes, so a value of 32768 is commonly used.
 
@@ -1736,7 +1728,15 @@ A system assigned ID number for a client session. Starts counting from 1 when th
 |-----------|-------|-------------------|
 |1-*n*|14|read only|
 
-## gp\_set\_proc\_affinity 
+## <a id="gp_session_role"></a>gp_session_role
+
+The role of this server process is set to *dispatch* for the master and *execute* for a segment.
+
+|Value Range|Default|Set Classifications|
+|-----------|-------|-------------------|
+|dispatch<br/><br/>execute<br/><br/>utility| |read only|
+
+## <a id="gp_set_proc_affinity"></a>gp\_set\_proc\_affinity 
 
 If enabled, when a Greenplum server process \(postmaster\) is started it will bind to a CPU.
 

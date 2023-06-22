@@ -67,9 +67,10 @@ Maintenance mode should only be used with direction from VMware Technical Suppor
 
 2.  Connect to the master in maintenance mode to do catalog maintenance. For example:
 
-    ``` 
-    $ PGOPTIONS='-c gp_session_role=utility' psql postgres
-    ```
+     <a id="kg155401"></a>
+     ``` 
+     $ PGOPTIONS='-c gp_session_role=utility' psql postgres
+     ```
 
 3.  After completing your administrative tasks, stop the master in utility mode. Then, restart it in production mode.
 
