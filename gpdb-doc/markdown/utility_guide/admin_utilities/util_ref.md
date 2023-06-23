@@ -44,11 +44,11 @@ Greenplum Database provides the following management utility programs:
 
  [gpinitsystem](gpinitsystem.html)
 
- [gpkafka](https://docs.vmware.com/en/VMware-Tanzu-Greenplum-Streaming-Server/1.7/greenplum-streaming-server/GUID-kafka-gpkafka.html)
+ [gpkafka](https://docs.vmware.com/en/VMware-Greenplum-Streaming-Server/1.10/greenplum-streaming-server/kafka-gpkafka.html)
 
- [gpkafka-v2.yaml](https://docs.vmware.com/en/VMware-Tanzu-Greenplum-Streaming-Server/1.7/greenplum-streaming-server/GUID-kafka-gpkafka-yaml-v2.html)
+ [gpkafka-v2.yaml](https://docs.vmware.com/en/VMware-Greenplum-Streaming-Server/1.10/greenplum-streaming-server/kafka-gpkafka-yaml-v2.html)
 
- [gpkafka.yaml](https://docs.vmware.com/en/VMware-Tanzu-Greenplum-Streaming-Server/1.7/greenplum-streaming-server/GUID-kafka-gpkafka-yaml.html)
+ [gpkafka.yaml](https://docs.vmware.com/en/VMware-Greenplum-Streaming-Server/1.10/greenplum-streaming-server/kafka-gpkafka-yaml.html)
 
  [gpload](gpload.html)
 
@@ -98,9 +98,9 @@ Greenplum Database provides the following management utility programs:
 
  [pgbouncer-admin](pgbouncer-admin.html)
 
- [pxf](https://docs.vmware.com/en/VMware-Tanzu-Greenplum-Platform-Extension-Framework/6.3/tanzu-greenplum-platform-extension-framework/GUID-ref-pxf.html)
+ [pxf](https://docs.vmware.com/en/VMware-Greenplum-Platform-Extension-Framework/6.6/greenplum-platform-extension-framework/ref-pxf.html)
 
- [pxf cluster](https://docs.vmware.com/en/VMware-Tanzu-Greenplum-Platform-Extension-Framework/6.3/tanzu-greenplum-platform-extension-framework/GUID-ref-pxf-cluster.html)
+ [pxf cluster](https://docs.vmware.com/en/VMware-Greenplum-Platform-Extension-Framework/6.6/greenplum-platform-extension-framework/ref-pxf-cluster.html)
 
 ## Backend Server Programs 
 
