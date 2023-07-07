@@ -27,7 +27,7 @@ ccp-git-remote: git@github.com:pivotal/gp-concourse-cluster-provisioner.git
 gpdb-stable-builds-bucket-name: gpdb-stable-concourse-builds
 gpdb4-bucket-name: gpdb-4.3-stable-concourse
 madlib-ci-git-remote: git@github.com:Pivotal-DataFabric/madlib-ci.git
-madlib-ci-tag-filter: rel/v*
+madlib-ci-tag-filter: rel/v1*
 gcc-442-bucket: gcc-442
 postgis-gppkg-rhel6: release-candidate/postgis/postgis-2.1.5+pivotal.2-gp5-rhel6-x86_64.gppkg
 postgis-gppkg-rhel7: release-candidate/postgis/postgis-2.1.5+pivotal.2-gp5-rhel7-x86_64.gppkg
